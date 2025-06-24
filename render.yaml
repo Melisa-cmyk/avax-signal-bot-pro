@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: avax-signal-bot
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python avax_render_bot.py"
